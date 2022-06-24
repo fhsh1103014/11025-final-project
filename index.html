@@ -15,7 +15,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <title>Vite App</title>
+    <title>復興高中</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,29 +38,18 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-lg-0 mb-2">
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">簡介</a>
+              <a class="nav-link active" aria-current="page" href="#intro">簡介</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">特色</a>
+              <a class="nav-link" href="#feature">特色</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">校園</a>
+              <a class="nav-link" href="#environment">校園</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
@@ -73,7 +62,7 @@
       />
     </div>
     <header class="py-1">
-      <div style="background-color: #b3dee5">
+      <div style="background-color: #b3dee5" id="intro">
         <h1>復興高中</h1>
         <!-- 寫入學校的簡單歷史跟簡介 -->
         <p>
@@ -84,7 +73,7 @@
       </div>
     </header>
     <main>
-      <div style="background-color: #ffff">
+      <div style="background-color: #ffff" id="feature">
         <h2>復興高中特色</h2>
         <!-- 說明校園特色 -->
         <ol>
@@ -111,7 +100,7 @@
           </li>
         </ol>
       </div>
-      <div style="background-color: #fae6b1">
+      <div style="background-color: #fae6b1" id="environment">
         <h3>校園環境</h3>
         <!-- 放校園圖片並加些許說明 -->
         <img
